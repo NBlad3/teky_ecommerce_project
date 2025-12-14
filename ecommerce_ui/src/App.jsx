@@ -1,12 +1,9 @@
-import "./App.css";
-import ListProfile from "./components/ListProfile"; 
+import React from 'react'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <ListProfile />
-    </div>
-  );
+    <div className='app'>App</div>
+  )
 }
 
-export default App;
+export default App
